@@ -1,8 +1,17 @@
 .homepage-body-container {
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
-  height: 100%;
+  height: 88vh;
   width: 100%;
-  outline: 1px solid black;
+  h1 {
+    font-size: 10em;
+    color: black;
+    font-weight: 800;
+  }
+  p {
+    align-self: inherit;
+    cursor: pointer;
+  }
 }
