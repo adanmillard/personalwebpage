@@ -5,8 +5,8 @@ import { Homepage } from "./pages/Homepage";
 function App() {
   return (
     <div className="App">
-      <Navbar />
-      <hr></hr>
+      {/* <Navbar /> */}
+      {/* <hr></hr> */}
       <Homepage />
     </div>
   );
