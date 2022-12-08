@@ -14,4 +14,22 @@
 .homepage-body-container p {
   align-self: inherit;
   cursor: pointer;
+}
+.homepage-body-container .homepage-icon-container {
+  width: 10%;
+  display: flex;
+  justify-content: space-evenly;
+}
+.homepage-body-container .homepage-icon-container i {
+  cursor: pointer;
+  font-size: 2rem;
+}
+.homepage-body-container .homepage-icon-container .fa-linkedin {
+  color: #0072b1;
+}
+.homepage-body-container .homepage-icon-container .fa-square-github {
+  color: #171515;
+}
+.homepage-body-container .homepage-icon-container .fa-envelope {
+  color: red;
 }/*# sourceMappingURL=homepageBody.css.map */

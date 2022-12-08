@@ -12,7 +12,8 @@ export const Homepage: React.FC = () => {
   return (
     <div>
       <>{nav && <Navbar />}</>
-      <HomepageBody showNavComponent={showNavComponent} />
+      {/* <HomepageBody showNavComponent={showNavComponent} /> */}
+      
     </div>
   );
 };

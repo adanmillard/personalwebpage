@@ -14,4 +14,23 @@
     align-self: inherit;
     cursor: pointer;
   }
+  .homepage-icon-container{
+    width: 10%;
+    // outline: 1px solid black;
+    display: flex;
+    justify-content: space-evenly;
+    i{
+      cursor: pointer;
+      font-size: 2rem;
+    }
+    .fa-linkedin{
+      color: #0072b1;
+    }
+    .fa-square-github{
+      color: #171515;
+    }
+    .fa-envelope{
+      color: red;
+    }
+  }
 }
