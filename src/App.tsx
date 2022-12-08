@@ -9,7 +9,7 @@ function App() {
       {/* <Navbar /> */}
       {/* <hr></hr> */}
       <Homepage />
-      <WorkExperience/>
+      {/* <WorkExperience/> */}
     </div>
   );
 }
