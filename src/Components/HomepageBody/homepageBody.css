@@ -3,16 +3,17 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  height: 88vh;
+  background-color: #0077fe;
+  height: 100vh;
   width: 100%;
 }
 .homepage-body-container h1 {
   font-size: 10em;
   color: white;
   font-weight: 800;
-  background-color: #0077fe;
 }
 .homepage-body-container p {
+  color: white;
   align-self: inherit;
   cursor: pointer;
 }
@@ -25,12 +26,17 @@
   cursor: pointer;
   font-size: 2rem;
 }
-.homepage-body-container .homepage-icon-container .fa-linkedin {
-  color: #0072b1;
-}
+.homepage-body-container .homepage-icon-container .fa-envelope,
+.homepage-body-container .homepage-icon-container .fa-linkedin,
 .homepage-body-container .homepage-icon-container .fa-square-github {
-  color: #171515;
+  color: white;
 }
-.homepage-body-container .homepage-icon-container .fa-envelope {
-  color: red;
+.homepage-body-container .homepage-icon-container .fa-linkedin:hover {
+  color: #0072b1 !important;
+}
+.homepage-body-container .homepage-icon-container .fa-square-github:hover {
+  color: #171515 !important;
+}
+.homepage-body-container .homepage-icon-container .fa-envelope:hover {
+  color: red !important;
 }/*# sourceMappingURL=homepageBody.css.map */
