@@ -1,12 +1,9 @@
-import { useState } from "react";
-import { redirect, useNavigate } from "react-router-dom";
+import { useNavigate } from "react-router-dom";
 import "./homepageBody.css";
 
 type IShowNav = {
   showNavComponent: (params: any) => any;
 };
-
-type RedirectFunction = (url: string, init?: number | ResponseInit) => Response;
 
 export const HomepageBody = ({ showNavComponent }: IShowNav) => {
   let navigate = useNavigate();
