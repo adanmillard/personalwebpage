@@ -1,0 +1,12 @@
+.jobs-card-container {
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.jobs-card-container .jobs-information {
+  width: 35%;
+  height: 35%;
+  outline: 1px solid black;
+}/*# sourceMappingURL=jobscard.css.map */

@@ -1,9 +1,10 @@
-import * as React from 'react';
+import * as React from "react";
+import { JobsCard } from "../Components/Jobs/JobsCard";
 
 export const WorkExperience = () => {
-    return (
-        <div>
-            <p>I am the WorkExperience</p>
-        </div>
-    )
-}
+  return (
+    <div>
+      <JobsCard />
+    </div>
+  );
+};
