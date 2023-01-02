@@ -1,0 +1,11 @@
+.work-desc-main-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  outline: 1px solid black;
+}
+.work-desc-main-container p {
+  text-align: center;
+}/*# sourceMappingURL=workDesc.css.map */

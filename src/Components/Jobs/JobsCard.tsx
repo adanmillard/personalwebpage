@@ -39,11 +39,36 @@ export const JobsCard: React.FC = () => {
         apiData.map((job: any, i: number) => {
           return (
             <div className="jobs-information" key={i}>
-              <p>Job Title: {job.jobTitle}</p>
-              <p>Company: {job.company}</p>
-              <p>Starting Date: {job.start_date}</p>
-              <p>Finishing Date: {job.end_date}</p>
-              <p>Job Description: {job.description}</p>
+              <div className="company-and-title">
+                <div>
+                  <p>
+                    <b>Company:</b>
+                  </p>
+                  <p>{job.company}</p>
+                </div>
+                <div>
+                  <p>
+                    <b>Job Title:</b>
+                  </p>
+                  <p>{job.jobTitle}</p>
+                </div>
+              </div>
+              <div className="start-finish">
+                <div>
+                  <p>
+                    <b>Starting Date & Finishing Date:</b>
+                  </p>
+                  <p>
+                    {job.start_date} to {job.end_date}
+                  </p>
+                </div>
+              </div>
+              <div className="description">
+                <p>
+                  <b>Job Description:</b>
+                </p>
+                <p>{job.description}</p>
+              </div>
             </div>
           );
         })}

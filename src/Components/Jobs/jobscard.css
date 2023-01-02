@@ -1,12 +1,33 @@
 .jobs-card-container {
-  height: 100vh;
-  width: 100%;
   display: flex;
   justify-content: center;
   align-items: center;
+  height: 25em;
+  width: 100%;
+  margin-top: 2em;
+  margin-bottom: 2em;
 }
 .jobs-card-container .jobs-information {
   width: 35%;
-  height: 35%;
+  height: 28em;
   outline: 1px solid black;
+  padding: 1em;
+}
+.jobs-card-container .jobs-information .company-and-title {
+  display: flex;
+  justify-content: space-around;
+  text-align: center;
+}
+.jobs-card-container .jobs-information .start-finish {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+.jobs-card-container .jobs-information .description {
+  display: flex;
+  flex-direction: column;
+  width: 95%;
+}
+.jobs-card-container .jobs-information .description p {
+  flex-wrap: wrap;
 }/*# sourceMappingURL=jobscard.css.map */
