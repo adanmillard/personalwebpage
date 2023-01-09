@@ -1,0 +1,41 @@
+.jobs-card-main-container {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.jobs-card-main-container .prev-btn,
+.jobs-card-main-container .next-btn {
+  position: -webkit-sticky;
+  position: sticky;
+  bottom: 10.5em;
+}
+.jobs-card-main-container .jobs-card-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+}
+.jobs-card-main-container .jobs-card-container .jobs-information {
+  margin-bottom: 2%;
+  width: 35%;
+  outline: 1px solid black;
+  padding: 1em;
+}
+.jobs-card-main-container .jobs-card-container .jobs-information .company-and-title {
+  display: flex;
+  justify-content: space-around;
+  text-align: center;
+}
+.jobs-card-main-container .jobs-card-container .jobs-information .start-finish {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+.jobs-card-main-container .jobs-card-container .jobs-information .description {
+  display: flex;
+  flex-direction: column;
+  width: 95%;
+}
+.jobs-card-main-container .jobs-card-container .jobs-information .description p {
+  flex-wrap: wrap;
+}/*# sourceMappingURL=jobscard.css.map */

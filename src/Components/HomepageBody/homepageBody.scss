@@ -3,15 +3,42 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  height: 88vh;
+  background-color: #0077fe;
+  height: 100vh;
   width: 100%;
   h1 {
     font-size: 10em;
-    color: black;
+    color: white;
     font-weight: 800;
   }
   p {
+    color: white;
     align-self: inherit;
     cursor: pointer;
+  }
+  .homepage-icon-container {
+    width: 10%;
+    // outline: 1px solid black;
+    display: flex;
+    justify-content: space-evenly;
+    i {
+      cursor: pointer;
+      font-size: 2rem;
+    }
+    .fa-envelope,
+    .fa-linkedin,
+    .fa-square-github {
+      color: white;
+    }
+
+    .fa-linkedin:hover {
+      color: #0072b1 !important;
+    }
+    .fa-square-github:hover {
+      color: #171515 !important;
+    }
+    .fa-envelope:hover {
+      color: red !important;
+    }
   }
 }

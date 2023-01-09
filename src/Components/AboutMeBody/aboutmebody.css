@@ -1,0 +1,33 @@
+.aboutme-main-container {
+  height: 100vh;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.aboutme-main-container .aboutme-text-container {
+  width: 20%;
+  text-align: center;
+}
+.aboutme-main-container .aboutme-text-container p {
+  font-size: 16px;
+  font-weight: 400;
+}
+.aboutme-main-container .aboutme-text-container h1 {
+  font-size: 40px;
+  font-weight: 700;
+}
+.aboutme-main-container .aboutme-text-container h2 {
+  font-size: 32px;
+  font-weight: 600;
+}
+.aboutme-main-container .aboutme-text-container h1,
+.aboutme-main-container .aboutme-text-container h2 {
+  margin: 0;
+  padding: 0;
+}
+.aboutme-main-container .aboutme-image img {
+  -o-object-fit: cover;
+     object-fit: cover;
+  height: 45em;
+  width: 30em;
+}/*# sourceMappingURL=aboutmebody.css.map */
