@@ -1,0 +1,42 @@
+.main-container {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.main-container .containerStyles {
+  width: 60rem;
+  height: 35rem;
+}
+
+.main-page-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 100vh;
+  width: 100%;
+}
+
+.leftArrowStyles,
+.rightArrowStyles {
+  position: absolute;
+  top: 50%;
+  transform: translate(0, -50%);
+  font-size: 45px;
+  color: rgb(10, 10, 10);
+  z-index: 1;
+  cursor: pointer;
+}
+
+.leftArrowStyles {
+  left: 32px;
+}
+
+.rightArrowStyles {
+  right: 32px;
+}
+
+.sliderStyles {
+  position: relative;
+  height: 100%;
+}/*# sourceMappingURL=projectsCarousel.css.map */

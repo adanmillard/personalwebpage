@@ -9,7 +9,7 @@ export const HomepageBody = ({ showNavComponent }: IShowNav) => {
   let navigate = useNavigate();
 
   const handleRoute = () => {
-    navigate("/workexperience");
+    navigate("/aboutme");
   };
 
   return (

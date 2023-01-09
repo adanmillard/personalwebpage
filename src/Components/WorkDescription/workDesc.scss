@@ -1,0 +1,14 @@
+.work-desc-main-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  margin-bottom: 2%;
+  .work-desc-container {
+    width: 65%;
+  }
+  p {
+    text-align: center;
+  }
+}
