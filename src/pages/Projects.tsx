@@ -30,7 +30,7 @@ export const Projects = () => {
   };
 
   return (
-    <div className="test">
+    <div className="main-page-container">
       <span className="prev-btn" onClick={prevPage}>
         ❰
       </span>
