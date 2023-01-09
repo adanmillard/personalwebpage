@@ -4,6 +4,7 @@ import "./projectsCarousel.css";
 type Slides = {
   url: string;
   title: string;
+  description: string;
 };
 
 type Props = {
@@ -13,7 +14,6 @@ type Props = {
 const slideStyles = {
   width: "100%",
   height: "100%",
-  borderRadius: "10px",
   backgroundSize: "cover",
   backgroundPosition: "center",
 };
@@ -48,8 +48,9 @@ export const ProjectsCarousel: React.FC<Props> = ({ slide }) => {
           ❱
         </div>
       </div>
-      <div>{slide[currentIndex].title}</div>
+      <h2>{slide[currentIndex].title}</h2>
       <div style={slideStyleWidthBackground}></div>
+      <h4>{slide[currentIndex].description}</h4>
     </div>
   );
 };

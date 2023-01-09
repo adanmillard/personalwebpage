@@ -46,9 +46,9 @@ export const JobsCard: React.FC = () => {
 
   return (
     <div className="jobs-card-main-container">
-      <button onClick={prevPage} className="prev-btn">
-        Prev
-      </button>
+      <span onClick={prevPage} className="prev-btn">
+        ❰
+      </span>
       <div className="jobs-card-container">
         {apiData &&
           apiData.map((job: any, i: number) => {
@@ -88,9 +88,9 @@ export const JobsCard: React.FC = () => {
             );
           })}
       </div>
-      <button onClick={nextPage} className="next-btn">
-        Next
-      </button>
+      <span onClick={nextPage} className="next-btn">
+        ❱
+      </span>
     </div>
   );
 };

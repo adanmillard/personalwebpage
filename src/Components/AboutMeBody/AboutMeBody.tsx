@@ -14,9 +14,9 @@ export const AboutMeBody = () => {
 
   return (
     <div className="aboutme-main-container">
-      <button onClick={previousPage} className="prev-btn">
-        Prev
-      </button>
+      <span onClick={previousPage} className="prev-btn">
+        ❰
+      </span>
       <div className="aboutme-text-container">
         <h1>Hello I'm Adan</h1>
         <h2>A Full Stack Developer</h2>
@@ -62,9 +62,9 @@ export const AboutMeBody = () => {
           alt="profile"
         />
       </div>
-      <button onClick={nextPage} className="next-btn">
-        Next
-      </button>
+      <span onClick={nextPage} className="next-btn">
+        ❱
+      </span>
     </div>
   );
 };

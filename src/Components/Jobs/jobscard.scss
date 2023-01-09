@@ -2,10 +2,11 @@
   display: flex;
   justify-content: space-evenly;
   align-items: center;
-  button {
-    align-self: flex-start;
+  .prev-btn,
+  .next-btn {
+    // align-self: flex-start;
     position: sticky;
-    top: 36em;
+    bottom: 10.5em;
   }
   .jobs-card-container {
     display: flex;
@@ -36,12 +37,5 @@
         }
       }
     }
-  }
-
-  .next-btn {
-    margin-right: 1%;
-  }
-  .prev-btn {
-    margin-left: 1%;
   }
 }
