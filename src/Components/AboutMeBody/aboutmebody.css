@@ -13,10 +13,12 @@
   font-weight: 400;
 }
 .aboutme-main-container .aboutme-text-container h1 {
+  color: #0077fe;
   font-size: 40px;
   font-weight: 700;
 }
 .aboutme-main-container .aboutme-text-container h2 {
+  color: #0077fe;
   font-size: 32px;
   font-weight: 600;
 }
@@ -25,9 +27,18 @@
   margin: 0;
   padding: 0;
 }
+.aboutme-main-container .aboutme-image {
+  display: flex;
+  justify-content: center;
+}
+.aboutme-main-container .aboutme-image span {
+  position: absolute;
+  z-index: 20;
+}
 .aboutme-main-container .aboutme-image img {
-  -o-object-fit: cover;
-     object-fit: cover;
   height: 45em;
   width: 30em;
+  position: relative;
+  -o-object-fit: cover;
+     object-fit: cover;
 }/*# sourceMappingURL=aboutmebody.css.map */

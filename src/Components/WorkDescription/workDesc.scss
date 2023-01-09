@@ -1,3 +1,5 @@
+$secondary: #0077fe;
+
 .work-desc-main-container {
   display: flex;
   flex-direction: column;
@@ -6,7 +8,10 @@
   width: 100%;
   margin-bottom: 2%;
   .work-desc-container {
-    width: 65%;
+    width: 50%;
+  }
+  h1 {
+    color: $secondary;
   }
   p {
     text-align: center;

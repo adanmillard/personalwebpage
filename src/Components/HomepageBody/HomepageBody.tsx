@@ -15,7 +15,9 @@ export const HomepageBody = ({ showNavComponent }: IShowNav) => {
   return (
     <div className="homepage-body-container">
       <h1>It's Me Adan.</h1>
-      <p onClick={handleRoute}>Let's continue...</p>
+      <p onClick={handleRoute}>
+        <b>Let's continue...</b>
+      </p>
       <div className="homepage-icon-container">
         <a title="Linkedin">
           <i className="fa-brands fa-linkedin"></i>

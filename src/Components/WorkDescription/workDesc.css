@@ -7,7 +7,10 @@
   margin-bottom: 2%;
 }
 .work-desc-main-container .work-desc-container {
-  width: 65%;
+  width: 50%;
+}
+.work-desc-main-container h1 {
+  color: #0077fe;
 }
 .work-desc-main-container p {
   text-align: center;

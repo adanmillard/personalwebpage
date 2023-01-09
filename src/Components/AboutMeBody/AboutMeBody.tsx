@@ -1,8 +1,18 @@
 import "./aboutmebody.css";
 import { useNavigate } from "react-router-dom";
+import { useState } from "react";
 
 export const AboutMeBody = () => {
   let navigate = useNavigate();
+  const [hover, setHover] = useState(false);
+
+  const mouseIn = () => {
+    setHover(true);
+  };
+
+  const mouseOut = () => {
+    setHover(false);
+  };
 
   const nextPage = () => {
     navigate("/workexperience");
@@ -56,7 +66,12 @@ export const AboutMeBody = () => {
           way as others have helped me on my journey.{" "}
         </p>
       </div>
-      <div className="aboutme-image">
+      <div
+        className="aboutme-image"
+        onMouseEnter={mouseIn}
+        onMouseLeave={mouseOut}
+      >
+        <span>{hover && <h1>The cats name is Bruce</h1>}</span>
         <img
           src="http://localhost:3000/Images/20221218_160902.jpg"
           alt="profile"

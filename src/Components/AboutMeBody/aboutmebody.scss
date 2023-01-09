@@ -1,16 +1,11 @@
+$primaryTextColor: #eaf4ff;
+$secondary: #0077fe;
+
 .aboutme-main-container {
   height: 100vh;
   display: flex;
   justify-content: space-between;
   align-items: center;
-
-  // .next-btn {
-  //   margin-right: 1%;
-  // }
-  // .prev-btn {
-  //   margin-left: 1%;
-  // }
-
   .aboutme-text-container {
     width: 20%;
     text-align: center;
@@ -19,10 +14,12 @@
       font-weight: 400;
     }
     h1 {
+      color: $secondary;
       font-size: 40px;
       font-weight: 700;
     }
     h2 {
+      color: $secondary;
       font-size: 32px;
       font-weight: 600;
     }
@@ -33,10 +30,17 @@
     }
   }
   .aboutme-image {
+    display: flex;
+    justify-content: center;
+    span {
+      position: absolute;
+      z-index: 20;
+    }
     img {
-      object-fit: cover;
       height: 45em;
       width: 30em;
+      position: relative;
+      object-fit: cover;
     }
   }
 }
