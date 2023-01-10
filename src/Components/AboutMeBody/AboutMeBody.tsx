@@ -1,8 +1,18 @@
 import "./aboutmebody.css";
 import { useNavigate } from "react-router-dom";
+import { useState } from "react";
 
 export const AboutMeBody = () => {
   let navigate = useNavigate();
+  const [hover, setHover] = useState(false);
+
+  const mouseIn = () => {
+    setHover(true);
+  };
+
+  const mouseOut = () => {
+    setHover(false);
+  };
 
   const nextPage = () => {
     navigate("/workexperience");
@@ -30,19 +40,19 @@ export const AboutMeBody = () => {
           gym and have a deep understanding of health and fitness.
         </p>
         <p>
-          I have been studying Web Development with MRHQ since May 2022, where I
-          have discovered a new love of software development. This has improved
-          my problem solving capabilities. I finished studying with Mission
-          Ready in December 2022 and now am on a path to continue my passion of
-          Software Development.
+          I have been studying Web Development with{" "}
+          <a href="https://www.missionreadyhq.com/">
+            <b>MRHQ</b>
+          </a>{" "}
+          since May 2022, where I have discovered a new love of software
+          development. This has improved my problem solving capabilities. I
+          finished studying with Mission Ready in December 2022 and now am on a
+          path to continue my passion of Software Development.
         </p>
         <p>
           I have done an internship with{" "}
-          <a
-            href="https://digitalisland.co.nz/?gclid=Cj0KCQiAnsqdBhCGARIsAAyjYjT2Y8Z0y2xSu3lSRkNhpvHY9sUIfukzskAJuI6IQYXCIjT6bCSrIQgaAtEnEALw_wcB"
-            target="_blank"
-          >
-            Digital Island
+          <a href="https://digitalisland.co.nz/?gclid=Cj0KCQiAnsqdBhCGARIsAAyjYjT2Y8Z0y2xSu3lSRkNhpvHY9sUIfukzskAJuI6IQYXCIjT6bCSrIQgaAtEnEALw_wcB">
+            <b>Digital Island</b>
           </a>
           , where I learnt so much, a noticeable take away was agile practices,
           everything from daily stand ups to demos. I also learnt the Angular
@@ -56,7 +66,12 @@ export const AboutMeBody = () => {
           way as others have helped me on my journey.{" "}
         </p>
       </div>
-      <div className="aboutme-image">
+      <div
+        className="aboutme-image"
+        onMouseEnter={mouseIn}
+        onMouseLeave={mouseOut}
+      >
+        <span>{hover && <h1>The cats name is Bruce</h1>}</span>
         <img
           src="http://localhost:3000/Images/20221218_160902.jpg"
           alt="profile"

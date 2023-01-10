@@ -48,9 +48,9 @@ export const ProjectsCarousel: React.FC<Props> = ({ slide }) => {
           ❱
         </div>
       </div>
-      <h2>{slide[currentIndex].title}</h2>
+      <h2 className="slide-title">{slide[currentIndex].title}</h2>
       <div style={slideStyleWidthBackground}></div>
-      <h4>{slide[currentIndex].description}</h4>
+      <h4 className="slide-description">{slide[currentIndex].description}</h4>
     </div>
   );
 };

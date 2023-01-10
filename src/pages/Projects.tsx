@@ -30,12 +30,16 @@ export const Projects = () => {
   };
 
   return (
-    <div className="test">
+    <div className="main-page-container">
       <span className="prev-btn" onClick={prevPage}>
         ❰
       </span>
       <div className="main-container">
         <h1>Projects</h1>
+        {/* <p>
+          These are a couple of the projects I've made or have been involved
+          with.
+        </p> */}
         <div className="containerStyles">
           <ProjectsCarousel slide={slide} />
         </div>
