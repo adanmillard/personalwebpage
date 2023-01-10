@@ -1,1 +1,1 @@
-{"version":3,"sources":["workDesc.scss","workDesc.css"],"names":[],"mappings":"AAEA;EACE,aAAA;EACA,sBAAA;EACA,uBAAA;EACA,mBAAA;EACA,WAAA;EACA,iBAAA;ACDF;ADEE;EACE,UAAA;ACAJ;ADEE;EACE,cAbQ;ACaZ;ADEE;EACE,kBAAA;ACAJ","file":"workDesc.css"}
+{"version":3,"sources":["workDesc.scss","workDesc.css"],"names":[],"mappings":"AAEA;EACE,aAAA;EACA,sBAAA;EACA,uBAAA;EACA,mBAAA;EACA,WAAA;EACA,iBAAA;ACDF;ADEE;EACE,UAAA;ACAJ;ADEE;EACE,cAbQ;EAcR,eAAA;EACA,gBAAA;ACAJ;ADEE;EACE,kBAAA;ACAJ","file":"workDesc.css"}

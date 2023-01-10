@@ -36,6 +36,10 @@ export const Projects = () => {
       </span>
       <div className="main-container">
         <h1>Projects</h1>
+        {/* <p>
+          These are a couple of the projects I've made or have been involved
+          with.
+        </p> */}
         <div className="containerStyles">
           <ProjectsCarousel slide={slide} />
         </div>

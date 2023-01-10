@@ -7,8 +7,13 @@ $secondary: #0077fe;
   justify-content: space-between;
   align-items: center;
   .aboutme-text-container {
-    width: 20%;
+    width: 25%;
     text-align: center;
+    p {
+      b {
+        color: $secondary;
+      }
+    }
     p {
       font-size: 16px;
       font-weight: 400;
@@ -28,6 +33,10 @@ $secondary: #0077fe;
       margin: 0;
       padding: 0;
     }
+    a {
+      color: $secondary;
+      text-decoration: none;
+    }
   }
   .aboutme-image {
     display: flex;
@@ -35,6 +44,7 @@ $secondary: #0077fe;
     span {
       position: absolute;
       z-index: 20;
+      color: $secondary;
     }
     img {
       height: 45em;

@@ -40,19 +40,19 @@ export const AboutMeBody = () => {
           gym and have a deep understanding of health and fitness.
         </p>
         <p>
-          I have been studying Web Development with MRHQ since May 2022, where I
-          have discovered a new love of software development. This has improved
-          my problem solving capabilities. I finished studying with Mission
-          Ready in December 2022 and now am on a path to continue my passion of
-          Software Development.
+          I have been studying Web Development with{" "}
+          <a href="https://www.missionreadyhq.com/">
+            <b>MRHQ</b>
+          </a>{" "}
+          since May 2022, where I have discovered a new love of software
+          development. This has improved my problem solving capabilities. I
+          finished studying with Mission Ready in December 2022 and now am on a
+          path to continue my passion of Software Development.
         </p>
         <p>
           I have done an internship with{" "}
-          <a
-            href="https://digitalisland.co.nz/?gclid=Cj0KCQiAnsqdBhCGARIsAAyjYjT2Y8Z0y2xSu3lSRkNhpvHY9sUIfukzskAJuI6IQYXCIjT6bCSrIQgaAtEnEALw_wcB"
-            target="_blank"
-          >
-            Digital Island
+          <a href="https://digitalisland.co.nz/?gclid=Cj0KCQiAnsqdBhCGARIsAAyjYjT2Y8Z0y2xSu3lSRkNhpvHY9sUIfukzskAJuI6IQYXCIjT6bCSrIQgaAtEnEALw_wcB">
+            <b>Digital Island</b>
           </a>
           , where I learnt so much, a noticeable take away was agile practices,
           everything from daily stand ups to demos. I also learnt the Angular

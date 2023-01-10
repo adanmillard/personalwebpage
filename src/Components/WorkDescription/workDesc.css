@@ -11,6 +11,8 @@
 }
 .work-desc-main-container h1 {
   color: #0077fe;
+  font-size: 40px;
+  font-weight: 600;
 }
 .work-desc-main-container p {
   text-align: center;
