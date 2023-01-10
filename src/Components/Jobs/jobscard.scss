@@ -1,3 +1,6 @@
+$primaryTextColor: #eaf4ff;
+$secondary: #0077fe;
+
 .jobs-card-main-container {
   display: flex;
   justify-content: space-evenly;
@@ -14,10 +17,16 @@
     align-items: center;
     width: 100%;
     .jobs-information {
+      border-radius: 8px;
       margin-bottom: 2%;
       width: 35%;
       outline: 1px solid black;
       padding: 1em;
+      p {
+        b {
+          color: $secondary;
+        }
+      }
       .company-and-title {
         display: flex;
         justify-content: space-around;

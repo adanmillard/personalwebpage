@@ -1,4 +1,3 @@
-import React from "react";
 import "./workDesc.css";
 
 export const WorkDescription = () => {
@@ -18,10 +17,6 @@ export const WorkDescription = () => {
           In the lockdown of 2021 I decided I wanted to do a career pivot and
           make my way into the tech industry, so I joined up with Mission Ready
           HQ to study software development and haven't looked back.
-        </p>
-        <p>
-          I have now retrained and am looking to land my first role in tech,
-          super exciting times ahead.
         </p>
       </div>
     </div>

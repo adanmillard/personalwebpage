@@ -16,10 +16,14 @@
   width: 100%;
 }
 .jobs-card-main-container .jobs-card-container .jobs-information {
+  border-radius: 8px;
   margin-bottom: 2%;
   width: 35%;
   outline: 1px solid black;
   padding: 1em;
+}
+.jobs-card-main-container .jobs-card-container .jobs-information p b {
+  color: #0077fe;
 }
 .jobs-card-main-container .jobs-card-container .jobs-information .company-and-title {
   display: flex;
